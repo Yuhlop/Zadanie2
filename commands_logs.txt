@@ -1,0 +1,15 @@
+1. mkdir example 
+2. touch example{1..879}.txt
+3. mkdir home
+4. mkdir user1
+5. mkdir files
+6. touch file{1..30}.txt
+7. mkdir photos
+8. touch photos{1..179}.txt
+9. mkdir videos
+10. touch video{1..29}.txt
+11. mkdir user2 user3 user4 user5
+12. cp -r user1/. user2/
+13. cp -r user1/. user3/
+14. cp -r user1/. user4/
+15. cp -r user1/. user5/ 
